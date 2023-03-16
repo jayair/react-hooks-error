@@ -1,0 +1,18 @@
+{
+  "name": "@demo-notes-app/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.4",
+    "sst": "^2.1.6",
+    "vitest": "^0.29.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1327.0",
+    "sst": "^2.1.6"
+  }
+}
